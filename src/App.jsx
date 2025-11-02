@@ -1,9 +1,10 @@
-const App = () => {
+function App() {
   return (
-    <div className="text-[25px] bg-blue-500 m-10 p-10 font-serif">
-      Hello World
+    <div className="bg-red-500 text-white p-8 text-center">
+      <h1 className="text-4xl font-bold">Tailwind CSS Berhasil!</h1>
+      <p className="text-xl">Ini pakai styling Tailwind</p>
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App
