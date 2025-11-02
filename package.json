@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "exc08-jk",
+=======
+  "name": "jk-exc08",
+>>>>>>> 06458df261e8ce708977e91e4dab9efb93c35c0a
   "private": true,
   "version": "0.0.0",
   "type": "module",
