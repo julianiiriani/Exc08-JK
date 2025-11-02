@@ -1,10 +1,15 @@
-function App() {
-  return (
-    <div className="bg-red-500 text-white p-8 text-center">
-      <h1 className="text-4xl font-bold">Tailwind CSS Berhasil!</h1>
-      <p className="text-xl">Ini pakai styling Tailwind</p>
-    </div>
-  )
-}
+import Header from "./components/Header";
+import Home from "./components/Home";
+import Footer from "./components/Footer";
 
-export default App
+const App = () => {
+  return (
+    <>
+      <Header />
+      <Home />
+      <Footer />
+    </>
+  );
+};
+
+export default App;
