@@ -1,8 +1,14 @@
+import Header from "./components/Header";
+import Home from "./components/Home";
+import Footer from "./components/Footer";
+
 const App = () => {
   return (
-    <div className="text-[25px] bg-blue-500 m-10 p-10 font-serif">
-      Hello World
-    </div>
+    <>
+      <Header />
+      <Home />
+      <Footer />
+    </>
   );
 };
 
