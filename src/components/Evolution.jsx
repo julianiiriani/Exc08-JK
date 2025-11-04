@@ -1,10 +1,8 @@
-import React from 'react';
-
 const Evolution = () => {
   return (
-    <div className="evolution mb-4">
-      <h2 className="text-lg font-bold mb-2">Evolution</h2>
-      <p>Evolution content goes here.</p>
+    <div className="mb-4">
+      <h3 className="text-lg font-bold">Evolution</h3>
+      <p className="text-gray-600">Evolution content here</p>
     </div>
   );
 };
